@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.component-display {
+    height: 12vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: grey;
+    color: #fff;
+}
+
+.component-display p {
+    font-size: 38px;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.component-button-panel div {
+    display: flex;
+    height: 17.6vh;
+}
+
+.component-button-panel .component-button {
+    width: 25%;
+}
+
+.component-button-panel .component-button-wide {
+    width: 50%;
+}
+
+.component-button-panel .component-button-orange {
+    width: 25%;
+}
+
+.component-button-panel .component-button-orange button{
+    background-color: orange;
+    color: #fff;
+}
+
+.component-button-panel .component-button-orange button:hover{
+    background-color: #fff;
+    color: orange;
+}
+
+button {
+    border: none;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: gray;
+    background-color: orange;
+    cursor: pointer;
+}
